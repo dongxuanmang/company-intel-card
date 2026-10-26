@@ -1,0 +1,20 @@
+{
+  "name": "company-intel-card",
+  "version": "0.2.0",
+  "description": "在招聘网站页面聚合公司信息与招聘信号的 Tampermonkey 用户脚本（只读 DOM，本地存储）",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "author": "dongxuanmang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dongxuanmang/company-intel-card.git"
+  },
+  "homepage": "https://github.com/dongxuanmang/company-intel-card",
+  "scripts": {
+    "test": "node test/run-tests.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
