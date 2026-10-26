@@ -38,8 +38,11 @@
 
 ### 2. 安装本脚本
 
-- **方式 A（推荐）**：在 Tampermonkey 中新建脚本，粘贴 [`company-intel-card.user.js`](company-intel-card.user.js) 全部内容，保存。
-- **方式 B**：把 `.user.js` 文件拖进浏览器窗口，按提示安装。
+- **方式 A（推荐）**：点击 [安装脚本（raw）](https://raw.githubusercontent.com/dongxuanmang/company-intel-card/main/company-intel-card.user.js) → Tampermonkey 弹出安装页 → 点「安装」。
+- **方式 B**：在 Tampermonkey 中新建脚本，粘贴 [`company-intel-card.user.js`](company-intel-card.user.js) 全部内容，保存。
+- **方式 C**：把 `.user.js` 文件拖进浏览器窗口，按提示安装。
+
+> 之后脚本会通过 `@updateURL` 检查 GitHub 上的新版本，Tampermonkey 会提示更新。
 
 ### 3. Chrome 138+ 必须多开一个开关
 
